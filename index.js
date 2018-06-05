@@ -35,7 +35,7 @@ logger.fail = function () {
 
 logger.inspect = function ( data ) {
     util.inspect(data, {colors: true, depth: 5}).split('\n').forEach(function ( line ) {
-        log.info(line);
+        logger.info(line);
     });
 };
 
