@@ -2,17 +2,17 @@ Task runner logger
 ==================
 
 [![build status](https://img.shields.io/travis/runner/logger.svg?style=flat-square)](https://travis-ci.org/runner/logger)
-[![npm version](https://img.shields.io/npm/v/@runner/logger.svg?style=flat-square)](https://www.npmjs.com/package/@runner/logger)
+[![npm version](https://img.shields.io/npm/v/runner-logger.svg?style=flat-square)](https://www.npmjs.com/package/runner-logger)
 [![dependencies status](https://img.shields.io/david/runner/logger.svg?style=flat-square)](https://david-dm.org/runner/logger)
 [![devDependencies status](https://img.shields.io/david/dev/runner/logger.svg?style=flat-square)](https://david-dm.org/runner/logger?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/runner)
-[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/@runner/logger)
+[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/runner-logger)
 
 
 ## Installation ##
 
 ```bash
-npm install @runner/logger
+npm install runner-logger
 ```
 
 
@@ -21,7 +21,7 @@ npm install @runner/logger
 Add to the scope:
 
 ```js
-var logger = require('@runner/logger');
+var logger = require('runner-logger');
 ```
 
 General output with different colors:
@@ -68,4 +68,4 @@ according to the contribution [rules](.github/contributing.md).
 
 ## License ##
 
-`@runner/logger` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`runner-logger` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).

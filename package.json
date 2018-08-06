@@ -1,5 +1,5 @@
 {
-    "name": "@runner/logger",
+    "name": "runner-logger",
     "version": "1.0.0",
     "description": "Simple task runner logger.",
     "author": {
@@ -9,9 +9,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/runner/logger.git"
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "scripts": {
         "lint": "eslint .",
