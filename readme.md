@@ -21,7 +21,7 @@ npm install runner-logger
 Add to the scope:
 
 ```js
-var logger = require('runner-logger');
+const logger = require('runner-logger');
 ```
 
 General output with different colors:
@@ -43,7 +43,7 @@ logger.inspect(someObject);
 Access [colors](https://www.npmjs.com/package/colors) instance:
 
 ```js
-var colors = logger.colors;
+const colors = logger.colors;
 
 logger.info(
     colors.black.bgYellow('black text on yellow background')
@@ -53,7 +53,7 @@ logger.info(
 Some task specific output:
 
 ```js
-var log = logger.wrap('webpack');
+const log = logger.wrap('webpack');
 
 // 16:25:30.811 [webpack] build is ok
 log.info('build is ok');

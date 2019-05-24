@@ -5,14 +5,15 @@
 
 'use strict';
 
-var util   = require('util'),
+const
+    util   = require('util'),
     colors = require('colors/safe'),
     cfg    = {hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit'},
     logger = {};
 
 
 function time () {
-    var date = new Date();
+    const date = new Date();
 
     return date.toLocaleString('en', cfg) + '.' + (+date).toString().substr(-3);
 }
@@ -42,7 +43,7 @@ logger.inspect = function ( data ) {
 
 // add individual report methods for a task
 logger.wrap = function ( title ) {
-    var result = {
+    const result = {
         // export colorization
         colors: colors,
 
