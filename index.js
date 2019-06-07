@@ -18,6 +18,7 @@ function time () {
     return date.toLocaleString('en', cfg) + '.' + (+date).toString().substr(-3);
 }
 
+
 // export colorization
 logger.colors = colors;
 
