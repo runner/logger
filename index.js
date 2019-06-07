@@ -6,16 +6,16 @@
 'use strict';
 
 const
-    util   = require('util'),
-    colors = require('colors/safe'),
-    cfg    = {hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit'},
-    logger = {};
+    util       = require('util'),
+    colors     = require('colors/safe'),
+    dateConfig = {hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit'},
+    logger     = {};
 
 
 function time () {
     const date = new Date();
 
-    return date.toLocaleString('en', cfg) + '.' + (+date).toString().substr(-3);
+    return date.toLocaleString('en', dateConfig) + '.' + (+date).toString().substr(-3);
 }
 
 
